@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Desfontaine Lucas - Portfolio</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+
+<section class="nav">
+    <span class="color-purple fts-24" id="nav-name">Desfontaine Lucas</span>
+    <nav id="nav-container">
+        <span class="example-fill-remaining-space"></span>
+        <a href="/">Home</a>
+        <a href="#competences">Compétences</a>
+        <a href="#contact">Contact</a>
+        <a href="/about.html">About</a>
+    </nav>
+</section>
+
+<section class="presentation-container">
+    <div id="contenu-presentation">
+        <p class="color-white fts-48 fw-6">Yo,</p>
+        <h1 class="color-white fts-48 fw-6">Bienvenue sur mon portfolio</h1>
+            <p class="color-white fts-24">Je suis étudiant en L3 MIAGE (Méthodes Informatiques Appliquées à la Gestion des
+            Entreprises) et spécialisé dans le
+            DevOps.</p>
+
+
+        <div class="btn-container">
+            <a href="#about" class="btn full-btn js-smooth-scroll" data-duration="300">
+                A propos
+            </a>
+            <a href="#my-projects" class="btn empty-btn" data-duration="300">
+                Mes projets
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <h2 class="color-purple fts-32">À propos de moi</h2>
+    <p id="about-text" class="fts-20">
+      <span>
+      Je suis actuellement en L3 MIAGE et je suis passionné par
+      l'informatique. Durant ma formation, je me suis spécialisé dans le
+       développement.
+      </span>
+        <span>
+       Pour commencer, j'ai effectué un BAC général avec une spécialité
+       informatique, mathématiques et audiovisuel. Je  me suis ensuite spécilaise dans le devélopement dans le cadre de mon BTS SIO.
+      </span>
+        <span>
+        Je souhaite continuer de me former en informatique et je pense que la l3 MIAGE est la formation qu'il me faut. Je suis à la recherche de
+        nouvelle expérience dans le monde du numérique.
+      </span>
+    </p>
+</section>
+
+<section>
+    <h2 class="color-purple fts-36 mg-t-10">Mes compétences :</h2>
+    <div id="competences">
+        <!-- card competences -->
+    </div>
+</section>
+
+
+<section id="my-projects">
+    <h2 class="color-purple fts-32">Mes projects</h2>
+    <p class="color-white fts-20">
+        J’essaye d’acquérir de nouvelles compétences et pour cela je me lance le
+        défi de réaliser des petits projets afin de mettre ses compétences en pratiques.
+    </p>
+    <div id="projets-row">
+        <!-- card projects -->
+    </div>
+</section>
+
+
+<section id="contact">
+    <h2 class="color-purple fts-32">Me contacter</h2>
+            <div id="format-contact">
+                <span><a href="mailto:lucas.desfontaine1@gmail.com" target="_blank" class="fts-20" > lucas.desfontaine1@gmail.com</a></span> <!-- <fa-icon [icon]="faEnvelope"></fa-icon>-->
+                <span><a href="https://www.linkedin.com/in/lucas-desfontaine-79370a23a/" target="_blank" class="fts-20"> Linkedin</a></span> <!-- <fa-icon [icon]="faLinkedin"></fa-icon> -->
+                <span><a href="https://github.com/ldesfontaine" target="_blank" class="fts-20"> Github</a></span><!--<fa-icon [icon]="faGithub"></fa-icon>-->
+                <span><a href="tel:+687500026" target="_blank" class="fts-20">+687.50.00.26</a></span><!--<fa-icon [icon]="faMobile"></fa-icon> -->
+    </div>
+</section>
+
+<footer>
+     <footer id="copyright"> <small>&copy; Copyright <span id="date-copy"></span>, Lucas Desfontaine</small> </footer>
+</footer>
+
+<script src="/competence_card/competence_card.js"></script>
+<script src="/project_card/project_card.js"></script>
+<script src="/main.js"></script>
+
+</body>
+</html>

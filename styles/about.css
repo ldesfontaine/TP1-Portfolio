@@ -1,0 +1,59 @@
+
+.body{
+    padding: 7vh 9vw 0vh 9vw; /** bas gauche haut droite bghd **/
+}
+
+
+.body > p span::after{
+    content: "\A";
+        white-space: pre;
+}
+
+#cv {
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+
+}
+
+
+#cv,#cv_img {
+    width: 50vw;
+    height: 160vh;
+
+}
+
+#certif > span > img {
+    width: 78rem;
+    height: 6vh;
+}
+
+#ehe{
+    width: 50rem;
+    height: 30rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-device-width:800px), screen and (max-width:800px) {
+    #certif > span > img {
+        width: 17rem;
+        height: 2vh;
+    }
+
+    #ehe{
+        width: 16rem;
+        height: 16rem;
+    }
+
+    #cv{
+        width: 18rem;
+        height: 32rem;
+    }
+    #cv_img{
+        width: 17rem;
+        height: 22rem;
+    }
+
+}
