@@ -1,8 +1,28 @@
 # TP1 - Portfolio
 ## Desfontaine Lucas L3 MIAGE
 
+[//]: # (Environement)
+### Environement Testé
+Le projet fonctionne sous :
+- Linux Mint & LAMP
+- Windows 11 & LARAGON
 
-[//]: # (description du projet)
+[//]: # (Installation)
+### Installation
+Pour installer le projet,
+il suffit de cloner le projet dans un dossier de votre serveur web.
+Sous Linux Mint, le dossier est /var/www/html. + modifier la conf apache /etc/apache2/sites-available/000-default.conf
+Sous Windows, le dossier est C:\laragon\www  Laragon gere tout seul la conf apache & les Vhosts
+```
+git clone git@github.com:ldesfontaine/TP1-Portfolio.git
+```
+
+Ils suffit ensuite d'ouvrir votre navigateur et de taper l'adresse de votre serveur web ou 127.0.0.1 si vous etes en local.
+
+[//]: # (Fonctionnement)
+
+
+[//]: # (objectif du projet)
 ### Description du projet
 Le projet est un portfolio qui permet de presenter mes projets et mes competences.
 Il est composé de deux pages, une page d'accueil et une page "A propos".
